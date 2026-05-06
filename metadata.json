@@ -1,0 +1,5 @@
+{
+  "name": "MedConnect",
+  "description": "Медицинское приложение для записи к врачам и ведения электронных медицинских карт. Включает интерфейсы пациента и врача на React и FastAPI backend.",
+  "requestFramePermissions": []
+}

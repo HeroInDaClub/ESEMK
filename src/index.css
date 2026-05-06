@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Accent Color: #3FA8FF */
+  --color-blue-50: #e6f3ff;
+  --color-blue-100: #cce7ff;
+  --color-blue-200: #99cfff;
+  --color-blue-300: #66b8ff;
+  --color-blue-400: #33a0ff;
+  --color-blue-500: #3FA8FF;
+  --color-blue-600: #3FA8FF; /* Primary accent */
+  --color-blue-700: #2b8ce6; /* Hover state */
+  --color-blue-800: #1a70c2;
+  --color-blue-900: #185083;
+  --color-blue-950: #10365c;
+
+  /* Grayscale: strictly neutral, with gray-50 as pure white */
+  --color-gray-50: #ffffff;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e5e5;
+  --color-gray-300: #d4d4d4;
+  --color-gray-400: #a3a3a3;
+  --color-gray-500: #737373;
+  --color-gray-600: #525252;
+  --color-gray-700: #404040;
+  --color-gray-800: #262626;
+  --color-gray-900: #171717;
+  --color-gray-950: #0a0a0a;
+}
+
+body {
+  background-color: #ffffff;
+  color: #171717;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* Custom font weight utilities to ensure Montserrat weights are applied correctly */
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Врач">
+  <rect width="800" height="600" fill="#eef7f1"/>
+  <circle cx="400" cy="218" r="88" fill="#2f9e62" opacity="0.18"/>
+  <path d="M270 455c22-82 76-126 130-126s108 44 130 126" fill="#2f9e62" opacity="0.18"/>
+  <path d="M366 405h68M400 371v68" stroke="#2f9e62" stroke-width="22" stroke-linecap="round"/>
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#2f9e62">Врач</text>
+</svg>
